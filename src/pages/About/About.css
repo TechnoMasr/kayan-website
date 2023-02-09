@@ -1,0 +1,34 @@
+.about-top,
+.about-bottom {
+  height: 80vh;
+}
+.about-content {
+  padding: 30px 0px;
+}
+.about-content__cards{
+  padding: 30px 0px;
+}
+.about-content__cards:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.about-content_c {
+  padding-left: 50px;
+  display: table-cell;
+  vertical-align: middle;
+  height: 286px;
+}
+.about-content_c h3 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: var(--color-kayan);
+}
+.about-content_c p {
+  color: var(--color-kayan);
+}
+.about-content__allCards .about-content_c button {
+  display: none;
+}
+.about-content__allCards .about-content__cards:nth-child(1) button{
+  display: block;
+}

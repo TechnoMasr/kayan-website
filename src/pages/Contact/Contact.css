@@ -1,0 +1,50 @@
+.contact {
+  padding: 120px 0 0 0;
+}
+.contact .office-info {
+  padding-bottom: 100px;
+}
+.contact .office-info .office-info-item {
+  text-align: center;
+  box-shadow: 0 5px 15px 0 rgb(62 65 159 / 10%);
+  padding: 40px;
+}
+.office-info-item .office-info-icon {
+  width: 85px;
+  height: 85px;
+  background: #efefef;
+  line-height: 110px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.office-info-item .office-info-icon svg {
+  color: var(--color-btn);
+  font-size: 30px;
+}
+.office-info-text h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+.office-info-text p {
+  font-size: 16px;
+  color: #595959;
+  line-height: 1.8em;
+  margin-bottom: 0;
+}
+.contact-title {
+  max-width: 440px;
+  text-align: center;
+  margin: 0 auto 50px;
+}
+.contact-title h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--color-black);
+}
+
+.contactUs__mapGoogle {
+  height: 400px;
+}

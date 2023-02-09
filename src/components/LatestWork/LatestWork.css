@@ -1,0 +1,137 @@
+
+.latestWork {
+  background: #2c2c32;
+  position: relative;
+  padding-bottom: 90px;
+  z-index: 1;
+  padding: 120px 0;
+}
+.latestWork__title {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.latestWork__title h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 170.9%;
+  margin: 0;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+}
+
+.latestWork-item-div {
+  background: #2c2c32;
+  border-color: #666;
+  margin-bottom: 30px;
+  padding: 20px;
+  height: 500px;
+
+  border: 1px solid #c4c4c4;
+}
+.latestWork-item-inside {
+  overflow: hidden;
+  position: relative;
+}
+.latestWork-item-inside img {
+  width: 100%;
+  filter: grayscale(0);
+  transition: all 0.3s;
+  transform: scale(1);
+  min-height: 260px;
+  object-fit: cover;
+  max-width: 100%;
+  vertical-align: middle;
+  /* width: 868px; */
+}
+.latestWork-item-inside img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.2);
+}
+.thumb {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  padding: 7px 25px 6px;
+  background: var(--color-btn);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.latestWork__content {
+  padding-top: 20px;
+}
+.latestWork__content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  line-height: 36px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.latestWork__title p {
+  font-size: 20px;
+  color: var(--color-white);
+}
+.latestWork__content h2 a {
+  color: #fff;
+  transition: all 0.2s;
+}
+.latestWork__content h2 a:hover {
+  color: var(--color-btn);
+}
+.latestWork__content p {
+  color: #cbcbcb;
+  font-size: 18px;
+  line-height: 1.8em;
+  margin-bottom: 1rem;
+}
+/* ******** Vectors ******* */
+.latestWork .vector-1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.latestWork .vector-1 img {
+  color: transparent;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  height: 566px;
+  width: 900px;
+}
+.latestWork .vector-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.latestWork .vector-2 img {
+  color: transparent;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  height: 603px;
+  width: 543px;
+}
+.read-more {
+ color: #fff;
+ transition: 0.3s;
+ border: 2px solid white;
+ padding: 7px;
+ text-align: center;
+ border-radius: 8px;
+ -webkit-transition: 0.3s;
+ -moz-transition: 0.3s;
+ -ms-transition: 0.3s;
+ -o-transition: 0.3s;
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ -ms-border-radius: 8px;
+ -o-border-radius: 8px;
+}
+.read-more:hover{
+  color:var(--color-btn);
+}

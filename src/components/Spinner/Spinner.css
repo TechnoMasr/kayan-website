@@ -1,0 +1,17 @@
+.spinner {
+  min-height: 300vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  min-width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 55555;
+  background-color: white !important;
+}
+
+.spinner img {
+  width: 300px;
+  object-fit: cover;
+}

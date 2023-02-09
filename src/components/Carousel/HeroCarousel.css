@@ -1,0 +1,55 @@
+.heroCarousel {
+  height: 500px;
+
+}
+
+.heroCarousel h1 {
+  text-shadow: 2px 7px 5px rgb(0 0 0 / 30%), 0 -4px 10px hsl(0deg 0% 100% / 0%);
+}
+
+.heroCarousel__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-item,
+.carousel-inner {
+  height: 100% !important;
+}
+
+.heroCarousel__main {
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .heroCarousel {
+    height: 400px;
+  }
+
+  .heroCarousel__image {
+    object-fit: cover;
+  }
+}
+.hero-img {
+  width: 100%;
+  height: 400px;
+  min-height: 300px;
+  position: relative;
+}
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.hero-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 30%);
+}

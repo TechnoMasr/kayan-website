@@ -1,0 +1,126 @@
+.projectInside {
+  padding: 120px 0;
+}
+
+.projectInside__item {
+  margin-bottom: 40px;
+}
+.projectInside-title h3 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 130.5%;
+  margin-bottom: 20px;
+}
+.projectInside-title p {
+  font-size: 16px;
+  color: #595959;
+  line-height: 1.8em;
+}
+.projectInside-right {
+  /* max-width: 380px; */
+
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+.projectInside-right ul {
+  list-style: none;
+  padding: 50px 30px;
+  box-shadow: 0 2px 10px rgb(14 29 44 / 15%);
+}
+.projectInside-right ul li {
+  display: flex;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #0d0845;
+  position: relative;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.projectInside-right ul li span {
+  flex-basis: 60%;
+  color: red;
+  font-weight: 400;
+}
+
+.projectInside__images-div {
+  width: 100%;
+    border-bottom: 8px solid #ccc;
+}
+.projectInside__images-main {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+
+}
+.desc {
+  line-height: 2;
+}
+.projectInside__images-div-others {
+  background-color: #f9f8f3;
+  margin-top: 15px;
+
+
+  
+}
+.some-blur {
+  filter: brightness(0.5);
+}
+.projectInside__images-div-others {
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+.projectInside__images-div-others img {
+  /* max-width: 200px; */
+  width: 18.4%;
+  min-height:200px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .projectInside__images-main {
+    
+    height: 400px;
+    
+  }
+  .projectInside__images-div-others img {
+    width: 23.5%;
+  }
+}
+.video::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.video video {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+.book-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book {
+  width: 200px;
+  border: none;
+  background-color: var(--color-btn);
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.book:hover{
+  background-color: white;
+  color: var(--color-btn);
+}

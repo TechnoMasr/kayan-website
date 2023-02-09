@@ -1,0 +1,26 @@
+.projects {
+  padding: 120px 0;
+}
+.project-grids {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects__section-title {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.projects__section-title h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 170.9%;
+  margin: 0;
+  font-family: Jost, sans-serif;
+  color: var(--color-black);
+  display: inline-block;
+  position: relative;
+}
+.projects__section-title p {
+    font-size: 20px;
+    color: var(--color-black);
+}
